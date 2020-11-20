@@ -1,0 +1,22 @@
+CRITICAL - 2020-11-17 08:35:29 --> Invalid file: layout/app.php
+#0 C:\xampp\htdocs\tucilweb\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/app.php')
+#1 C:\xampp\htdocs\tucilweb\system\View\View.php(257): CodeIgniter\View\View->render('layout/app', Array, true)
+#2 C:\xampp\htdocs\tucilweb\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\tucilweb\app\Controllers\Home.php(14): view('login')
+#4 C:\xampp\htdocs\tucilweb\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\tucilweb\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tucilweb\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tucilweb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tucilweb\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 08:39:25 --> Invalid file: layout/app.php
+#0 C:\xampp\htdocs\tucilweb\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/app.php')
+#1 C:\xampp\htdocs\tucilweb\system\View\View.php(257): CodeIgniter\View\View->render('layout/app', Array, true)
+#2 C:\xampp\htdocs\tucilweb\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\tucilweb\app\Controllers\Home.php(14): view('login')
+#4 C:\xampp\htdocs\tucilweb\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\tucilweb\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tucilweb\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tucilweb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tucilweb\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
