@@ -1,44 +1,52 @@
 <?= $this->extend('Layout/template'); ?>
 <?= $this->section('content'); ?>
-
+<div class="jumbotron" >
 <h1> <font color="#9932CC"><b><center>SPESIFIKASI LAPTOP ASUS </center></b></font></h1>
-<h2><center><font color="#9932CC">===========================================</font></center></h2>
-<center>
-<table border=1>
+<h2><center><font color="#9932CC">
+</div>
+<button>
+        <a href="acer"><font color="#9932CC"> Laptop Acer</a>
+</button>
+<hr>
+<div class="container"> 
+    <center>
+
+<table border=2 width="1000px">
         <tr> 
-            <td> </style><center> <font color="#9932CC"> Tipe </font></center></td>
-            <td> <font color="#9932CC"> <b> Asus ZenBook Pro 15 UX550GE </b></font></td>
+            <th bgcolor="purple" width="100px" width="100px"> </style><center> <font color="#ffffff"> Tipe </font></center></th>
+            <td> <center><font color="#9932CC"> <b><img src="/img/asus.png" width="150px"> Asus ZenBook Pro 15 UX550GE   </b></font>  </center> </td>
         </tr>
         <tr>
-            <td> <center> <font color="#9932CC"> Processor </font></center></td>
-            <td > Intel Core i9 8950HK Processor Cache 12M, hingga 4,80 GHz /<br>
-                    Intel Core i7 8750H Processor Cache 9M, hingga 4,10 GHz /<br>
-                    Intel Core i5 8300H Processor Cache 8M, hingga 4,00 GHz</td>
+            <th bgcolor="purple" width="100px" width="100px"> </style><center> <font color="#ffffff"> Processor </font></center></th>
+            <td ><center> Intel Core i9 8950HK Processor Cache 12M, hingga 4,80 GHz 
+                    Intel Core i7 8750H Processor Cache 9M, hingga 4,10 GHz <br>
+                    Intel Core i5 8300H Processor Cache 8M, hingga 4,00 GHz</center></td>
 
         </tr>
         <tr>
-            <td> <center> <font color="#9932CC"> Memori</font></center></td>
-             <td> 8/16 GB 2400 MHz DDR4 onboard</td>
+            <th bgcolor="purple"> <center> <font color="#ffffff"> Memori</font></center></th>
+             <td><center> 8/16 GB 2400 MHz DDR4 onboard</center></td>
          </tr>
          <tr>
-            <td> <center> <font color="#9932CC"> Operating System</font></center></td>
-            <td>Windows 10 Pro</td>
+            <th bgcolor="purple"> <center> <font color="#ffffff"> Operating System</font></center></th>
+            <td><center>Windows 10 Pro</center></td>
         </tr>
         <tr>
-            <td> <center> <font color="#9932CC"> Storage </font></center></td>
-             <td>256GB SATA3 M.2 SSD /
+            <th bgcolor="purple"> <center> <font color="#ffffff"> Storage </font></center></th>
+             <td> <center> 256GB SATA3 M.2 SSD /
                 512GB PLIE Gen3x4 SSD <br>
-                1TB PCIE Gen3x4 SSD</td>
+                1TB PCIE Gen3x4 SSD </center></td>
         </tr>
         <tr>
-             <td> <center> <font color="#9932CC"> Battery </font></center></td>
-             <td>71Wh 8 Cells Lithium polymer battery hingga 9 jam penggunaan</td>
+             <th bgcolor="purple"> <center> <font color="#ffffff"> Battery </font></center></th>
+             <td> <center>71Wh 8 Cells Lithium polymer battery hingga 9 jam penggunaan</center></td>
         </tr>
         <tr>
-            <td> <center> <font color="#9932CC"> weight </font></center></td>
-             <td>1.86 kg</td>
+            <th bgcolor="purple"> <center> <font color="#ffffff"> weight </font></center></th>
+             <td><center>1.86 kg</center></td>
         </tr>
     </table>
+    <p> </p>
+</div>
 </center>
-
 <?= $this->endSection(); ?>

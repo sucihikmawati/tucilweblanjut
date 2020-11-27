@@ -1,10 +1,10 @@
 <?php namespace App\Controllers;
 
-class Register extends BaseController
+class Acer extends BaseController
 {
 	public function index()
 	{
-		return view('Register');
+		return view('Acer');
 	}
 
 	//--------------------------------------------------------------------

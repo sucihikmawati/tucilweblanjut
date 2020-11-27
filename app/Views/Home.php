@@ -13,6 +13,7 @@
     </div>
   </div>
 
+<center>
   <div class="container">
     <!-- Example row of columns -->
     <div class="row">
@@ -24,12 +25,16 @@
       <div class="col-md-4">
         <img src="/img/images.png" width="250px">
         <p>nah disini saya akan memberikan informasi mengenai spesifikasi laptop berdasarkan dengan merk dan tipe laptopnya..</p>
+        <button>
+         <a href="DetailProduk"><font color="#9932CC"> Lihat spesifikasi</a>
+       </button>
       </div>
       </div>
-
+</center>
     <hr>
-
+    <center>
+     </center>
   </div> <!-- /container -->
-
+<br>
 </main>
 <?= $this->endSection(); ?>

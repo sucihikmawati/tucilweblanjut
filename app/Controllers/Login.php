@@ -12,7 +12,7 @@ class Login extends BaseController
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
 
-        if ($email=="Sucihikmawati24@gmail.com" && $password=="webtucil") 
+        if ($email=="Sucihikmawati24@gmail.com" && $password=="suci") 
         {
             return redirect()->to('/Home');
         }
