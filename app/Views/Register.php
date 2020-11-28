@@ -1,7 +1,8 @@
 <?= $this->extend('Layout/template'); ?>
 <?= $this->section('content'); ?>
-
-<form action = "Login/" method="post">
+<div class="container">
+  <br>
+<form action = "Login" method="post">
   <div class="form-group">
     <label for="email">Email address</label>
     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
@@ -25,4 +26,5 @@
   </div>
   <button type="submit" class="btn btn-primary">Daftar</button>
 </form>
+</div>
 <?= $this->endSection(); ?>

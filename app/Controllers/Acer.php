@@ -4,7 +4,7 @@ class Acer extends BaseController
 {
 	public function index()
 	{
-		return view('Acer');
+		return view('DetailProduk/Acer');
 	}
 
 	//--------------------------------------------------------------------
